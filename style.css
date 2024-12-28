@@ -5,21 +5,40 @@
 }
 
 .container {
-    
+    width: 1200px;
 }
 
 .header {
     padding-top: 17px;
 }
 
+.header_list {
+    display: flex;
+    gap: 55px;
+}
+
 .service {
     padding-top: 68px;
+}
+
+.service_list {
+    display: flex;
+    gap: 69.22px;
 }
 
 .team {
     padding-top: 100px;
 }
 
+.team_list {
+    display: flex;
+    gap: 30px;
+}
+
 .footer {
     padding-top: 80px;
+}
+
+.footer_container {
+    display: flex;
 }
