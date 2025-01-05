@@ -1,11 +1,14 @@
 :root {
-    --logo-color: #95E1D3;
-    --first-color: #333333;
-    --second-color: #B6B6B6;
+    --accent-color: #95E1D3;
+    --titles-color: #333333;
+    --text-color: #B6B6B6;
 }
 
 .container {
     width: 1200px;
+    margin: 0px auto;
+    padding-left: 360px;
+    padding-right: 360px;
 }
 
 .header {
