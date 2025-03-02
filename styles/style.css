@@ -3,9 +3,22 @@
     --titles-color: #333333;
     --text-color: #B6B6B6;
     --hover: #F38181;
-    --main-text:'Roboto';
-    --accent-text: 'Montserrat';
+    --second-text:'Roboto', sans-serif;
+    --main-text: 'Montserrat', sans-serif;
+    --third-text: 'Kaushan Script', sans-serif;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-text);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
 
 .container {
     width: 1200px;
@@ -17,6 +30,34 @@
     padding-top: 17px;
 }
 
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo_link {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.header_link {
+    color: var(--accent-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header_link:hover {
+    color: var(--hover);
+    transition: 0.3s;
+    border-bottom: 3px solid var(--hover);
+    padding-bottom: 10px;
+}
+
+
+
 .header_list {
     display: flex;
     gap: 55px;
@@ -26,14 +67,60 @@
     padding-top: 68px;
 }
 
+.service_subtitle {
+    text-align: center;
+    font-family: var(--third-text);
+    font-size: 24px;
+    padding-bottom: 20px;
+    color: var(--titles-color);
+}
+
+.service_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--titles-color);
+}
+
+.service_title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: var(--hover);
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
 .service_list {
     display: flex;
-    gap: 69.22px;
     flex-wrap: wrap;
+    row-gap: 100px;
+    justify-content: space-between;
 }
 
 .service_article {
-    width: 331px;
+    display: flex;
+    gap: 20px;
+    width: 367px;
+
+}
+
+.service_icon {
+    width: 37px;
+    height: 37px;
+}
+
+.service_text {
+    font-size: 15px;
+    color: var(--text-color);
+    font-family: var(--second-text);
+}
+
+.service_caption {
+    color: var(--titles-color);
+    text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 .team {
