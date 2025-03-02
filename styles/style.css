@@ -2,6 +2,9 @@
     --accent-color: #95E1D3;
     --titles-color: #333333;
     --text-color: #B6B6B6;
+    --hover: #F38181;
+    --main-text:'Roboto';
+    --accent-text: 'Montserrat';
 }
 
 .container {
@@ -26,6 +29,11 @@
 .service_list {
     display: flex;
     gap: 69.22px;
+    flex-wrap: wrap;
+}
+
+.service_article {
+    width: 331px;
 }
 
 .team {
