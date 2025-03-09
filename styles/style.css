@@ -3,7 +3,7 @@
     --titles-color: #333333;
     --text-color: #B6B6B6;
     --hover: #F38181;
-    --second-text:'Roboto', sans-serif;
+    --second-text: 'Roboto', sans-serif;
     --main-text: 'Montserrat', sans-serif;
     --third-text: 'Kaushan Script', sans-serif;
 }
@@ -23,7 +23,7 @@ body {
 .container {
     width: 1200px;
     margin: 0px auto;
-    
+
 }
 
 .header {
@@ -127,15 +127,78 @@ body {
     padding-top: 100px;
 }
 
+.team_subtitle {
+    text-align: center;
+    font-family: var(--third-text);
+    font-size: 24px;
+    color: var(--titles-color);
+}
+
+.team_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--titles-color);
+    padding-top: 17px;
+}
+
 .team_list {
     display: flex;
     gap: 30px;
 }
 
+.team_title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: var(--hover);
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.team_desc {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--second-text);
+    padding-bottom: 27px;
+}
+
+.team_name {
+    text-align: center;
+    color: var(--titles-color);
+    padding-top: 30px;
+}
+
+.team_post {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--second-text);
+    padding-top: 11px;
+}
+
 .footer {
     padding-top: 80px;
+    border-top: 1px solid #b6b6b6;
+    width: 1200px;
+    
 }
 
 .footer_container {
     display: flex;
 }
+
+.footer_link {
+    color: var(--hover);
+    text-decoration: none;
+}
+
+.footer_copyright {
+    color: var(--titles-color);
+}
+
