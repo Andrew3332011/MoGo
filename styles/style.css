@@ -121,6 +121,11 @@ li {
     font-family: var(--second-text);
 }
 
+.icon {
+    width: 67px;
+    height: 67px;
+}
+
 .service_caption {
     color: var(--titles-color);
     text-transform: uppercase;
@@ -190,7 +195,7 @@ li {
     padding-top: 80px;
     border-top: 1px solid #b6b6b6;
     width: 1200px;
-    
+
 }
 
 .footer_container {
@@ -205,4 +210,3 @@ li {
 .footer_copyright {
     color: var(--titles-color);
 }
-
