@@ -84,6 +84,7 @@ li {
     font-weight: 700;
     font-size: 30px;
     color: var(--titles-color);
+    
 }
 
 .service_title::after {
@@ -92,6 +93,7 @@ li {
     height: 4px;
     background-color: var(--hover);
     display: block;
+      margin: auto;
     margin-top: 40px;
     margin-bottom: 65px;
 }
@@ -110,11 +112,6 @@ li {
 
 }
 
-.service_icon {
-    width: 37px;
-    height: 37px;
-}
-
 .service_text {
     font-size: 15px;
     color: var(--text-color);
@@ -122,8 +119,9 @@ li {
 }
 
 .icon {
-    width: 67px;
-    height: 67px;
+    width: 37px;
+    height: 37px;
+    flex-shrink: 0;
 }
 
 .service_caption {
@@ -162,8 +160,10 @@ li {
     height: 4px;
     background-color: var(--hover);
     display: block;
+   margin: auto;
     margin-top: 40px;
     margin-bottom: 65px;
+  
 }
 
 .team_desc {
