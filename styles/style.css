@@ -191,6 +191,22 @@ li {
     padding-top: 11px;
 }
 
+.overlay {
+    width: 380px;
+height: 470px;
+position: absolute;
+transition: 1s;
+transform: translateX(%);
+background: linear-gradient(#EF8B8A, #E5CF82);
+opacity: 0.9;
+transform: translateY(-100%)
+
+}
+
+.box:hover .overlay {
+    transform: translate(100%);
+}
+
 .footer {
     padding-top: 80px;
     border-top: 1px solid #b6b6b6;
