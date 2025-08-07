@@ -11,20 +11,20 @@
 .header_logo_link {
     font-size: 30px;
     font-weight: 700;
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
 }
 
 .header_link {
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .header_link:hover {
-    color: var(--hover);
+    color: $accent_second-color;
     transition: 0.3s;
-    border-bottom: 3px solid var(--hover);
+    border-bottom: 3px solid $accent_second-color;
     padding-bottom: 10px;
 }
 

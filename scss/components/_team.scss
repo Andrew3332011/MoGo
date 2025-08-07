@@ -4,16 +4,16 @@
 
 .team_subtitle {
     text-align: center;
-    font-family: var(--third-text);
+    font-family: $third-font;
     font-size: 24px;
-    color: var(--titles-color);
+    color: $titles-color;
 }
 
 .team_title {
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: var(--titles-color);
+    color: $titles-color;
     padding-top: 17px;
 }
 
@@ -26,9 +26,9 @@
     content: '';
     width: 60px;
     height: 4px;
-    background-color: var(--hover);
+    background-color: $accent_second-color;
     display: block;
-   margin: auto;
+    margin: auto;
     margin-top: 40px;
     margin-bottom: 65px;
   
@@ -38,14 +38,14 @@
     font-weight: 400;
     font-size: 15px;
     text-align: center;
-    color: var(--text-color);
-    font-family: var(--second-text);
+    color: $text-color;
+    font-family: $second-font;
     padding-bottom: 27px;
 }
 
 .team_name {
     text-align: center;
-    color: var(--titles-color);
+    color: $titles-color;
     padding-top: 30px;
 }
 
@@ -54,7 +54,7 @@
     font-weight: 300;
     font-size: 15px;
     text-align: center;
-    color: var(--text-color);
-    font-family: var(--second-text);
+    color: $text-color;
+    font-family: $second-font;
     padding-top: 11px;
 }

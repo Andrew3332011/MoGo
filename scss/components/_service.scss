@@ -4,17 +4,17 @@
 
 .service_subtitle {
     text-align: center;
-    font-family: var(--third-text);
+    font-family: $third-font;
     font-size: 24px;
     padding-bottom: 20px;
-    color: var(--titles-color);
+    color: $titles-color;
 }
 
 .service_title {
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: var(--titles-color);
+    color: $titles-color;
     
 }
 
@@ -22,7 +22,7 @@
     content: '';
     width: 60px;
     height: 4px;
-    background-color: var(--hover);
+    background-color: $accent_second-color;
     display: block;
       margin: auto;
     margin-top: 40px;
@@ -45,8 +45,8 @@
 
 .service_text {
     font-size: 15px;
-    color: var(--text-color);
-    font-family: var(--second-text);
+    color: $text-color;
+    font-family: $second-font;
 }
 
 .icon {
@@ -56,7 +56,7 @@
 }
 
 .service_caption {
-    color: var(--titles-color);
+    color: $titles-color;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
