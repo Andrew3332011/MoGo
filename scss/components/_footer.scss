@@ -1,0 +1,19 @@
+.footer {
+    padding-top: 80px;
+    border-top: 1px solid #b6b6b6;
+    width: 1200px;
+
+}
+
+.footer_container {
+    display: flex;
+}
+
+.footer_link {
+    color: var(--hover);
+    text-decoration: none;
+}
+
+.footer_copyright {
+    color: var(--titles-color);
+}
