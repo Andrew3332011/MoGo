@@ -11,3 +11,26 @@ body {
     margin: 0px auto;
 
 }
+
+.subtitle {
+    text-align: center;
+    font-family: $third-font;
+    font-size: 24px;
+    padding-bottom: 20px;
+    color: $titles-color;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: $titles-color;
+    
+}
+
+.article {
+    display: flex;
+    gap: 20px;
+    width: 367px;
+
+}

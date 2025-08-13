@@ -2,21 +2,7 @@
     padding-top: 68px;
 }
 
-.service_subtitle {
-    text-align: center;
-    font-family: $third-font;
-    font-size: 24px;
-    padding-bottom: 20px;
-    color: $titles-color;
-}
 
-.service_title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-    color: $titles-color;
-    
-}
 
 .service_title::after {
     content: '';
@@ -36,12 +22,7 @@
     justify-content: space-between;
 }
 
-.service_article {
-    display: flex;
-    gap: 20px;
-    width: 367px;
 
-}
 
 .service_text {
     font-size: 15px;
